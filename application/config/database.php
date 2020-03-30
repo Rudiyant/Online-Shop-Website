@@ -74,12 +74,12 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> 'postgres://tsbxqlezjfvxzj:5998663cfb7bca7991f568210aecbfe9f133011f1365eeed8eb75563b0195ccd@ec2-174-129-254-218.compute-1.amazonaws.com:5432/d4aoprfuhkrai5',
-	'hostname' => '',
-	'username' => '',
-	'password' => '' ,
-	'database' => '',
-	'dbdriver' => 'postgre',
+	'dsn'	=> '',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'project_pw',
+	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
